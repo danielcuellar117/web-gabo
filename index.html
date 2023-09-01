@@ -4,19 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gabo</title>
+    <style>main {
+        /* 2. Estilos embebidos */
+        background-color: burlywood;
+        color: gray;
+    }
+    </style>
+    <!-- 3. estilo en un archivo externo -->
+    <link rel="stylesheet" href="./CSS/main.css">
 </head>
 <body>
-    
-    <header>
-       <h1>Encabezado</h1> 
+    <!-- 1. style inline -->
+    <header id="header" class="header" style="background-color: blanchedalmond;">
+        <div class="logo">
+            <img id="logo" src="./IMAGES/logo.png" alt="Logo: Gabo">
+        </div>
+        <div class="Menu-Principal">
+            <a href="#">Categorias</a>
+            <a href="#">Biografia</a>
+            <a href="#">Premios</a>
+        </div> 
     </header>
     <main>
         Contenido
+        <!-- javascript vincular manera 1. javascript inline -->
+        <button onclick="saluda()">Saludame</button>
     </main>
     <aside>
         Widgets
     </aside>
-    <footer>
+    <footer class="footer">
         Pie de pagina
     </footer>
 
