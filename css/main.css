@@ -19,3 +19,17 @@ a {
     color: black;
     font-weight: 500;
 }
+.main{
+    background-color: #b4c2dd    ;
+}
+.banner{
+    background-image: url('../images/banner.jpg');
+    height: 29vw;
+    object-fit: cover;
+    width: 100vw;
+    background-size: cover;
+    
+}
+footer{
+    background-color: pink;
+}
