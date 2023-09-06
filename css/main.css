@@ -80,7 +80,37 @@ a {
     margin: 0;
     text-transform: uppercase;
 }
+.premios{
+    color: black;
+}
+table{
+    width: 50%;
+    margin: 0 auto;
+    padding: 1rem 0;
+}
+
+.premios-title{
+text-align: center;
+margin: 2rem 0 3rem 0;
+}
+.date{
+    border: 3px solid blue;
+    background: orange;
+    padding: .7rem 1rem;
+    font-size: medium;
+    font-weight: bolder;
+}
+td{
+    height: 5rem;
+    padding-left: 4rem;
+}
 footer
     {
-    background-color: pink;
+    background-color: black;
+    }
+    .copyright {
+        color: white;
+        margin: 0;
+        padding: 1rem;
+        text-align: center;
     }
